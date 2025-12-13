@@ -42,10 +42,10 @@ Git commands :
 --> git commit -m 'Project Structure Setup'
 --> git branch -M main
 --> git remote add https://github.com/tgaiml2025-max/networksecurity.git
---> git push origin main
+--> git push -u origin main
 
 
-#Step 2  :- Create __init__.py file in each folder
+#Step 3  :- Create __init__.py file in each folder
 --> cloud folder
 --> component folder
 --> exception
@@ -58,14 +58,82 @@ git add.
 git commit -m "Packages created"
 git push -u origin main
 
+#Step 4 : Packaging the Project with Setup.py file
+
+'''
+The setup.py file is an essential part of packaging and 
+distributing Python projects. It is used by setuptools 
+(or distutils in older Python versions) to define the configuration 
+of your project, such as its metadata, dependencies, and more
+'''
+
+#Step 5 : Logging And Exception Handling Implementation
+
+
+
+#Step 6 : Introduction To ETL Pipelines
 
 
  	
- 	
+#Step 7 : Setting Up MongoDb Atlas
+
+
+#Step 8: ETL Pipeline Setup With Python
 
 
 
+#Step 8:  Data Ingestion Architecture
 
+
+#Step 8:  Implementing Data Ingestion Configuration
+
+
+#Step 8:  Implementing Data Ingestions Component
+
+
+#Step 8:  Implementing Data Validation-Part 1
+
+
+#Step 8:  Implementing Data Validation-Part 2
+
+
+#Step 8: Data Transformation Architecture
+
+
+#Step 8:  Data Transformation Implementation
+
+
+#Step 8:  Model Trainer Implementation- Part 1
+
+
+#Step 8:  Model Trainer And Evaluation With Hyperparameter Tuning
+
+
+#Step 8:  Model Experiment Tracking With MLFLOW
+
+
+#Step 8:  MLFLOW Experiment Tracking With Remote Respository Dagshub
+
+
+#Step 8:  Model Pusher Implementation
+
+
+#Step 8:  Model Training Pipeline Implementation
+
+
+#Step 8:  Batch Prediction Pipeline Implementation
+
+
+#Step 8: Final Model And Artifacts Pusher To AWS S3 buckets
+
+
+#Step 8:  Building Docker Image And Github Actions
+
+
+#Step 8:  Github Action-Docker Image Push to AWS ECR Repo Implementation
+
+
+#Step 8:  Final Deployment To EC2 instance
 
 
 
