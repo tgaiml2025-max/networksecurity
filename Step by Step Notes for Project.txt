@@ -1,0 +1,93 @@
+#Step 0: 
+ --> Create Repository on github like "NetworkSecurity"
+ --> Clone the Repository to Personal Computer. 
+ --> CD to Repository Name and run command "Code . "
+ --> Create .gitignore file 
+		venv
+		.env
+--> Create README.md
+--> Create requirements.txt
+--> Create .github/Workflows folder
+--> Create a main.yml file in .github/Workflows folder
+--> Create a Network_Data Folder
+--> Create a networksecurity
+	--> Create __init__.py
+	--> Create folder components
+	--> Create folder constant
+	--> Create folder entity
+	--> Create folder exception
+	--> Create folder logging
+	--> Create folder pipeline
+	--> Create folder utils 
+	--> Create cloud
+--> Create a notebooks folder
+--> Create a Dockerfile file 
+--> Create a setup.py file 
+--> Create .env file 
+
+
+#Step 1 :- Create Environment 
+		Lead Developer working on multiple projects. eg Proj1, Proj2, Proj3 , Proj4 etc.
+   		Each project has diff dependencies
+
+	#Create Virtual Environment:-
+		-->conda create -p venv python==3.10 -y
+		-->conda activate venv/
+
+
+#Step 2 : Setup Github 
+Git commands :
+--> git init
+--> git add .
+--> git commit -m 'Project Structure Setup'
+--> git branch -M main
+--> git remote add https://github.com/tgaiml2025-max/networksecurity.git
+--> git push origin main
+
+
+#Step 2  :- Create __init__.py file in each folder
+--> cloud folder
+--> component folder
+--> exception
+--> logging
+--> pipeline
+--> utils
+
+
+git add. 
+git commit -m "Packages created"
+git push -u origin main
+
+
+
+ 	
+ 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
